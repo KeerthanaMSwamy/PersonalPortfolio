@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #1b1b1b;
+    color: white;
+    /* this overflow will allow us to 1. no screencutting in x axis 
+    and in y axis it will scroll */
+    overflow: hidden;
+    overflow-y: scroll;
+}
