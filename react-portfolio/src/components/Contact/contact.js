@@ -6,7 +6,7 @@ import Microsoft from '../../assets/microsoft.png';
 import Facebook from '../../assets/facebook.png';
 import Twitter from '../../assets/twitter.png';
 
-function Contact() {
+const Contact = () => {
     return (
         <section id="contactPage">
             <div id="clients"> 
