@@ -49,3 +49,54 @@
     margin: 1rem;
 
 }
+
+.active{
+    color: yellow;
+    border-bottom: 3pm solid yellow;
+    padding-bottom: 0.5rem;
+}
+
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+
+
+}
+
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: #3b3636;
+    border-radius: 1rem;
+
+}
+
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: #3b3636;
+}
+
+@media screen and (max-width:720px ){
+    .mobMenu{
+        display: flex;
+
+    }
+    .desktopMenu{
+        display: none;
+    }
+
+    .desktopMenuBtn{
+        display: none;
+    }
+    
+}
